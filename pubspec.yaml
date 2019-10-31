@@ -1,0 +1,51 @@
+name: storebook
+description: Project for Store.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  fluttertoast: ^2.2.4
+  flutter_swiper : ^1.1.2
+  flutter_sequence_animation:
+  http:
+  intl: ^0.15.7
+  shared_preferences:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/img/storebook.png
+    - assets/img/storebook-blue.png
+    - assets/img/image.jpg
+    - assets/intro/welcome.jpg
+    - assets/intro/manage.gif
+    - assets/img/avatar.jpg
+  fonts:
+    - family: GoogleSans
+      fonts:
+        - asset: assets/fonts/Google-Sans-Font/GoogleSans-Regular.ttf
+        
+        - asset: assets/fonts/Google-Sans-Font/GoogleSans-Bold.ttf
+          weight: 700
+
+        - asset: assets/fonts/Google-Sans-Font/GoogleSans-BoldItalic.ttf
+          style: italic
+          weight: 700
+
+        - asset: assets/fonts/Google-Sans-Font/GoogleSans-Italic.ttf
+          style: italic
+
+        - asset: assets/fonts/Google-Sans-Font/GoogleSans-MediumItalic.ttf
+          style: italic
+          weight: 400
+
+        - asset: assets/fonts/Google-Sans-Font/GoogleSans-Medium.ttf
+          weight: 400
